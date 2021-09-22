@@ -140,43 +140,8 @@ body {
     flex-direction: column;
 }
 
-.sidebar_container a {
-    display: inline-block;
-    width: 100%;
-}
-
-
 /* sidebar menu */
-.sidebar_menu {
-    display: flex;
-    flex-direction: column;
-}
-
-.sidebar_menu .sidebar_logo img {
-    padding: 8px;
-}
-
-.sidebar_menu img {
-    padding: 12px;
-}
 
 /* sidebar playlist */
 
 /* sidebar last section */
-.sidebar_last_section {
-    display: flex;
-    flex-direction: column;
-}
-
-.sidebar_last_section .sidebar_download img {
-    padding: 18px 18px 18px 16px;
-}
-
-.sidebar_last_section .sidebar_profile{
-    padding: 12px
-}
-.sidebar_last_section .sidebar_profile img{
-    background-color: #878787;
-    border-radius: 50%;
-    width: 90%;
-}
