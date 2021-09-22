@@ -22,7 +22,7 @@ body {
 
 /* dimensioni per visualizzare i div */
 
-.side_bar_container {
+.sidebar_container {
     width: 50px;
     height: calc(100vh - 70px);
     background-color: #000;
@@ -34,7 +34,7 @@ body {
 }
 
 .main_container_all {
-    padding: 10px;
+    padding: 15px;
 }
 
 .play_bar_container {
@@ -55,7 +55,7 @@ body {
 .upgrade {
     text-align: right;
     background-color: #000;
-    padding: 10px;
+    padding: 9px;
 }
 
 .upgrade a {
@@ -83,12 +83,46 @@ body {
     gap: 20px;
 }
 
-.main_navbar li {
-    /* line-height: 50px; */
-}
-
 .main_navbar a {
     text-decoration: none;
     color: #878787;
-    font-size: 10px;
+    font-size: 9px;
+    font-weight: 700;
+}
+
+
+/* main cards container */
+
+.main_recently_played>h3 {
+    color: #fff;
+    padding: 20px 0;
+}
+
+
+/* cards */
+
+.main_cards_container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.card {
+    max-width: 48%;
+    text-align: center;
+}
+
+.card_image img {
+    width: 100%;
+}
+
+.card_title {
+    color: #fff;
+    font-size: 12px;
+    padding: 10px;
+}
+
+.card_subtitle {
+    color: #878787;
+    font-size: 11px;
 }
