@@ -112,6 +112,10 @@ body {
     text-align: center;
 }
 
+.card a {
+    text-decoration: none;
+}
+
 .card_image img {
     width: 100%;
 }
