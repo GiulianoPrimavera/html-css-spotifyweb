@@ -141,7 +141,14 @@ body {
 }
 
 /* sidebar menu */
-
+.sidebar_menu{
+    flex-grow: 0;
+}
 /* sidebar playlist */
-
+.sidebar_playlist{
+    flex-grow: 4;
+}
 /* sidebar last section */
+.sidebar_last_section{
+    flex-grow: 0;
+}
