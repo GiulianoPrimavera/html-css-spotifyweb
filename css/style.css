@@ -144,6 +144,14 @@ body {
 .sidebar_menu{
     flex-grow: 0;
 }
+.sidebar_menu .sidebar_logo img{
+    padding: 8px;   
+    filter: opacity(1);
+}
+.sidebar_menu img{
+    padding: 12px;    
+    filter: opacity(.5);
+}
 /* sidebar playlist */
 .sidebar_playlist{
     flex-grow: 4;
