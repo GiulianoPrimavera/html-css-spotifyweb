@@ -149,7 +149,7 @@ body {
 }
 .sidebar_container a{
     display: inline-block;
-    width: 100%;
+    width: 45px;
 }
 
 /* sidebar menu */
@@ -160,9 +160,12 @@ body {
     display: none;
     color: #878787;
 }
-.sidebar_menu .sidebar_logo img{
+.sidebar_menu .small_logo{
     padding: 4px 8px 8px;   
     filter: opacity(1);
+}
+.sidebar_menu .big_logo{
+    display: none;
 }
 .sidebar_menu img{
     padding: 4px 9px;    
