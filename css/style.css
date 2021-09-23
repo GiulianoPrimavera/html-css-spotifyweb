@@ -165,6 +165,7 @@ body {
 /* sidebar last section */
 .sidebar_last_section{
     flex-grow: 0;
+    padding-bottom: 8px;
 }
 .sidebar_last_section .sidebar_download{
     padding: 18px 18px 18px 16px;
@@ -173,7 +174,8 @@ body {
     padding: 0 12px;
 }
 .sidebar_last_section .sidebar_profile img{
-    width: 25px;
+    width: 22px;
+    height: 22px;
     background-color: #878787;
     border-radius: 50%;    
 }
