@@ -114,7 +114,7 @@ body {
 }
 
 .card {
-    max-width: 48%;
+    max-width: calc(100% / 2 - 10px);
     text-align: center;
 }
 
@@ -128,7 +128,7 @@ body {
 
 .card_title {
     color: #fff;
-    padding: 10px;
+    padding: 10px 0;
 }
 
 .subtitle {
