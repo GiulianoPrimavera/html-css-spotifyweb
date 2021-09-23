@@ -157,6 +157,7 @@ body {
 /* sidebar menu */
 .sidebar_menu{
     flex-grow: 0;
+    flex-shrink: 0;
 }
 .sidebar_menu span{
     display: none;
@@ -219,17 +220,28 @@ body {
 /* sidebar last section */
 .sidebar_last_section{
     flex-grow: 0;
+    flex-shrink: 0;
     padding-bottom: 8px;
 }
-.sidebar_last_section .sidebar_download{
-    padding: 14px 14px 14px 12px;
+.sidebar_last_section span{
+    display: none;
 }
-.sidebar_last_section .sidebar_profile{
-    padding: 0 12px;
+
+.sidebar_download{
+    text-align: center;
+    padding-right: 5px;
 }
-.sidebar_last_section .sidebar_profile img{
+.sidebar_download img{
+    width: 18px;       
+    vertical-align: middle;
+}
+.sidebar_profile_container{
+    padding: 10px 12px;
+}
+.sidebar_profile img{
     width: 20px;
     height: 20px;
     background-color: #878787;
     border-radius: 50%;    
+    vertical-align: middle;
 }

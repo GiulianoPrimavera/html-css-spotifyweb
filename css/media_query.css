@@ -12,8 +12,9 @@ MEDIA QUERY S
 
     /* sidebar menu */
     .sidebar_container .sidebar_menu span{
-        display: inline;
+        display: initial;
         font-size: 12px;
+        font-weight: 600;
     }
     .sidebar_container .sidebar_menu a{
         width: 100%;
@@ -40,6 +41,31 @@ MEDIA QUERY S
 
     /* sidebar playlist */
     .sidebar_playlist .sidebar_playlist_container{
-        display: block;
+        display: initial;
     }
+
+    /* sidebar last section */
+    .sidebar_container .sidebar_last_section{
+        padding-bottom: 0;
+    }
+    .sidebar_container .sidebar_last_section span{
+        display: inline;
+        font-size: 12px;
+        font-weight: 600;
+    }
+    .sidebar_last_section .sidebar_profile_container{
+        border-top: 1px solid #878787;
+        margin: 0 12px ;
+        padding: 10px 0;
+    }
+    .sidebar_last_section > div a{
+        width: 100%;
+    }
+    a.sidebar_download{
+        text-align: left;
+        padding: 10px 12px 5px;
+    }
+    /* .sidebar_profile_container {
+        padding: 10px 12px 5px;
+    } */
 }
