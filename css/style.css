@@ -205,8 +205,6 @@ body {
     color: #878787;    
 }
 .playlist_list_container{
-    flex-grow: 1;
-    flex-shrink: 1;
     height: 400px;
     overflow: auto;
 }
