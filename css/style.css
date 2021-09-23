@@ -237,13 +237,13 @@ body {
 PLAY BAR 
 *************/
 /* solo per visualizzare i blocchi */
-.current_song_container{
+.left_command_container{
     width: 25%;
     height: 100%;
     background-color: blue;
-    margin: 5px;
+    border: 1px solid;
 }
-.center_commands_container{
+.center_command_container{
     height: 100%;
     width: 50%;
     background-color: blue;
@@ -252,7 +252,7 @@ PLAY BAR
     width: 25%;
     height: 100%;
     background-color: blue;
-    margin: 5px;
+    border: 1px solid;
 }
 
 
@@ -265,24 +265,4 @@ PLAY BAR
     background-color: #282828;
     
     display: flex;
-}
-
-.play_bar_container a{
-    display: inline-block;
-    text-decoration: none;
-    color: black;
-}
-.current_song_container{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-.current_song_container div{
-    display: inline-block;
-    width: calc(100% / 3);
-    border: 1px solid;
-}
-
-.current_song_container img{
-    width: 100%;
 }
