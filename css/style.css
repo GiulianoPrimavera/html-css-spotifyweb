@@ -139,6 +139,10 @@ body {
     display: flex;
     flex-direction: column;
 }
+.sidebar_container a{
+    display: inline-block;
+    width: 100%;
+}
 
 /* sidebar menu */
 .sidebar_menu{
@@ -152,11 +156,24 @@ body {
     padding: 12px;    
     filter: opacity(.5);
 }
+
 /* sidebar playlist */
 .sidebar_playlist{
     flex-grow: 4;
 }
+
 /* sidebar last section */
 .sidebar_last_section{
     flex-grow: 0;
+}
+.sidebar_last_section .sidebar_download{
+    padding: 18px 18px 18px 16px;
+}
+.sidebar_last_section .sidebar_profile{
+    padding: 0 12px;
+}
+.sidebar_last_section .sidebar_profile img{
+    width: 25px;
+    background-color: #878787;
+    border-radius: 50%;    
 }
