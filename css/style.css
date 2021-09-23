@@ -182,6 +182,7 @@ body {
 }
 .sidebar_playlist_container{
     display: none;
+    height: 100%;
 }
 .new_playlist{
     padding: 10px 0;
@@ -205,6 +206,9 @@ body {
 .sidebar_playlist h4:last-child{
     display: inline-block;
     color: #878787;    
+}
+.playlist_list_container {
+    
 }
 .sidebar_playlist ul{
     list-style: none;

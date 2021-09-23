@@ -43,7 +43,9 @@ MEDIA QUERY S
     .sidebar_playlist .sidebar_playlist_container{
         display: initial;
     }
-
+    .sidebar_playlist .playlist_list_container{
+        overflow: auto;
+    }
     /* sidebar last section */
     .sidebar_container .sidebar_last_section{
         padding-bottom: 0;
@@ -65,7 +67,5 @@ MEDIA QUERY S
         text-align: left;
         padding: 10px 12px 5px;
     }
-    /* .sidebar_profile_container {
-        padding: 10px 12px 5px;
-    } */
+    
 }
