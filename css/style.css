@@ -20,34 +20,15 @@ body {
 }
 
 
-/* dimensioni per visualizzare i div */
-
+/************
+ MAIN 
+*************/
 .main_container {
     width: calc(100% - 45px);
     height: 100%;
     background-color: #141922;
     overflow: auto;
 }
-
-.main_container_all {
-    padding: 15px;
-    height: 100%;
-}
-
-.play_bar_container {
-    position: fixed;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    height: 70px;
-    background-color: #282828;
-}
-
-
-/************
- MAIN 
-*************/
-
 
 /* effettua l'upgrade */
 
@@ -69,7 +50,10 @@ body {
 
 
 /* main container all */
-
+.main_container_all {
+    padding: 15px;
+    height: 100%;
+}
 
 /* main navbar */
 
@@ -244,4 +228,61 @@ body {
     background-color: #878787;
     border-radius: 50%;    
     vertical-align: middle;
+}
+
+
+
+
+/***********
+PLAY BAR 
+*************/
+/* solo per visualizzare i blocchi */
+.current_song_container{
+    width: 25%;
+    height: 100%;
+    background-color: blue;
+    margin: 5px;
+}
+.center_commands_container{
+    height: 100%;
+    width: 50%;
+    background-color: blue;
+}
+.right_command_container{
+    width: 25%;
+    height: 100%;
+    background-color: blue;
+    margin: 5px;
+}
+
+
+.play_bar_container{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 70px;
+    background-color: #282828;
+    
+    display: flex;
+}
+
+.play_bar_container a{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+}
+.current_song_container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.current_song_container div{
+    display: inline-block;
+    width: calc(100% / 3);
+    border: 1px solid;
+}
+
+.current_song_container img{
+    width: 100%;
 }
