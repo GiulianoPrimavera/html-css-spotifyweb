@@ -151,6 +151,7 @@ body {
     display: inline-block;
     width: 45px;
     text-decoration: none;
+    color: #878787;
 }
 
 /* sidebar menu */
@@ -176,7 +177,44 @@ body {
 /* sidebar playlist */
 .sidebar_playlist{
     flex-grow: 4;
+    padding: 20px;
 }
+.sidebar_playlist_container{
+    display: none;
+}
+.new_playlist{
+    padding: 10px 0;
+}
+.sidebar_playlist .plus_square{
+    width: 40px;
+    height: 40px;
+    background-color: #878787;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.plus_square i{
+    color: #000;
+    font-size: 20px;
+}
+.sidebar_playlist h4:first-child{
+    color: #fff;
+    font-size: 16px;
+}
+.sidebar_playlist h4:last-child{
+    display: inline-block;
+    color: #878787;    
+}
+.sidebar_playlist ul{
+    list-style: none;
+}
+.sidebar_playlist ul a{
+    width: 100%;
+    padding: 10px 0;
+    font-weight: 600;
+    font-size: 14px;
+}
+
 
 /* sidebar last section */
 .sidebar_last_section{

@@ -37,4 +37,9 @@ MEDIA QUERY S
         filter: opacity(1);
         width: 100%;
     }
+
+    /* sidebar playlist */
+    .sidebar_playlist .sidebar_playlist_container{
+        display: block;
+    }
 }
