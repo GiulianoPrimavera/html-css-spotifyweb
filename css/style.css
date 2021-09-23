@@ -23,7 +23,7 @@ body {
 /* dimensioni per visualizzare i div */
 
 .main_container {
-    width: calc(100% - 50px);
+    width: calc(100% - 40px);
     background-color: #141922;
 }
 
@@ -51,13 +51,13 @@ body {
 .upgrade {
     text-align: right;
     background-color: #000;
-    padding: 9px;
+    padding: 20px 4px;
 }
 
 .upgrade a {
     text-decoration: none;
     color: #fff;
-    padding: 15px 30px;
+    padding: 10px 35px;
     border: 1px solid #fff;
     border-radius: 30px;
     display: inline-block;
@@ -82,7 +82,7 @@ body {
 .main_navbar a {
     text-decoration: none;
     color: #878787;
-    font-size: 9px;
+    font-size: 10px;
     font-weight: 700;
 }
 
@@ -133,7 +133,7 @@ body {
 ************/
 
 .sidebar_container {
-    width: 50px;
+    width: 40px;
     height: calc(100vh - 70px);
     background-color: #000;
     display: flex;
@@ -149,11 +149,11 @@ body {
     flex-grow: 0;
 }
 .sidebar_menu .sidebar_logo img{
-    padding: 8px;   
+    padding: 4px 8px;   
     filter: opacity(1);
 }
 .sidebar_menu img{
-    padding: 12px;    
+    padding: 0 8px;    
     filter: opacity(.5);
 }
 
@@ -168,10 +168,10 @@ body {
     padding-bottom: 8px;
 }
 .sidebar_last_section .sidebar_download{
-    padding: 18px 18px 18px 16px;
+    padding: 14px 14px 14px 12px;
 }
 .sidebar_last_section .sidebar_profile{
-    padding: 0 12px;
+    padding: 0 8px;
 }
 .sidebar_last_section .sidebar_profile img{
     width: 22px;
