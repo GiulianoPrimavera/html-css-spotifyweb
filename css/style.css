@@ -23,7 +23,7 @@ body {
 /* dimensioni per visualizzare i div */
 
 .main_container {
-    width: calc(100% - 40px);
+    width: calc(100% - 45px);
     background-color: #141922;
 }
 
@@ -61,7 +61,7 @@ body {
     border: 1px solid #fff;
     border-radius: 30px;
     display: inline-block;
-    font-size: 10px;
+    font-size: 12px;
 }
 
 
@@ -76,22 +76,23 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     align-items: flex-start;
-    gap: 20px;
+    gap: 30px;
 }
 
 .main_navbar a {
     text-decoration: none;
     color: #878787;
-    font-size: 10px;
+    font-size: 12px;
     font-weight: 700;
+    line-height: 30px;
 }
 
 
 /* main cards container */
 
-.main_recently_played>h3 {
+.main_recently_played > h3 {
     color: #fff;
-    padding: 20px 0;
+    padding: 25px 0;
 }
 
 
@@ -118,13 +119,11 @@ body {
 
 .card_title {
     color: #fff;
-    font-size: 12px;
     padding: 10px;
 }
 
 .card_subtitle {
     color: #878787;
-    font-size: 11px;
 }
 
 
@@ -133,7 +132,7 @@ body {
 ************/
 
 .sidebar_container {
-    width: 40px;
+    width: 45px;
     height: calc(100vh - 70px);
     background-color: #000;
     display: flex;
@@ -148,13 +147,17 @@ body {
 .sidebar_menu{
     flex-grow: 0;
 }
+.sidebar_menu span{
+    display: none;
+    color: #878787;
+}
 .sidebar_menu .sidebar_logo img{
-    padding: 4px 8px;   
+    padding: 4px 8px 8px;   
     filter: opacity(1);
 }
 .sidebar_menu img{
-    padding: 0 8px;    
-    filter: opacity(.5);
+    padding: 4px 9px;    
+    filter: opacity(.8);
 }
 
 /* sidebar playlist */
@@ -171,11 +174,11 @@ body {
     padding: 14px 14px 14px 12px;
 }
 .sidebar_last_section .sidebar_profile{
-    padding: 0 8px;
+    padding: 0 12px;
 }
 .sidebar_last_section .sidebar_profile img{
-    width: 22px;
-    height: 22px;
+    width: 20px;
+    height: 20px;
     background-color: #878787;
     border-radius: 50%;    
 }
