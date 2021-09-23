@@ -9,10 +9,19 @@ MEDIA QUERY S
     .main_container{
         width: calc(100% - 200px);
     }
-    
+
     /* sidebar menu */
     .sidebar_container .sidebar_menu span{
         display: inline;
+        font-size: 12px;
+    }
+    .sidebar_container .sidebar_menu a{
+        width: 100%;
+        padding-left: 10px;
+    }
+    .sidebar_container .sidebar_menu a img{
+        width: 40px;
+        vertical-align: middle;
     }
     
     /* cambio il logo di spotify da piccolo a grande */

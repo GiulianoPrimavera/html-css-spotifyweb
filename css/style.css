@@ -150,6 +150,7 @@ body {
 .sidebar_container a{
     display: inline-block;
     width: 45px;
+    text-decoration: none;
 }
 
 /* sidebar menu */
