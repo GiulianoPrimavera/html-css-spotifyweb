@@ -12,7 +12,7 @@ MEDIA QUERY S
 
     /* sidebar menu */
     .sidebar_container .sidebar_menu span{
-        display: initial;
+        display: inline;
         font-size: 12px;
         font-weight: 600;
     }
@@ -41,11 +41,10 @@ MEDIA QUERY S
 
     /* sidebar playlist */
     .sidebar_playlist .sidebar_playlist_container{
-        display: initial;
-    }
-    .sidebar_playlist .playlist_list_container{
-        overflow: auto;
-    }
+        display: flex;
+        flex-direction: column;
+   }
+
     /* sidebar last section */
     .sidebar_container .sidebar_last_section{
         padding-bottom: 0;

@@ -155,10 +155,6 @@ body {
 }
 
 /* sidebar menu */
-.sidebar_menu{
-    flex-grow: 0;
-    flex-shrink: 0;
-}
 .sidebar_menu span{
     display: none;
     color: #878787;
@@ -179,10 +175,11 @@ body {
 .sidebar_playlist{
     flex-grow: 4;
     padding: 20px;
+    height: calc(100% - 400px);
+    overflow: hidden;
 }
 .sidebar_playlist_container{
     display: none;
-    height: 100%;
 }
 .new_playlist{
     padding: 10px 0;
@@ -207,8 +204,11 @@ body {
     display: inline-block;
     color: #878787;    
 }
-.playlist_list_container {
-    
+.playlist_list_container{
+    flex-grow: 1;
+    flex-shrink: 1;
+    height: 400px;
+    overflow: auto;
 }
 .sidebar_playlist ul{
     list-style: none;
@@ -222,9 +222,7 @@ body {
 
 
 /* sidebar last section */
-.sidebar_last_section{
-    flex-grow: 0;
-    flex-shrink: 0;
+.sidebar_last_section{   
     padding-bottom: 8px;
 }
 .sidebar_last_section span{
