@@ -136,6 +136,7 @@ body {
     width: 45px;
     text-decoration: none;
     color: #878787;
+    border-left: 2px solid #000;
 }
 
 /* sidebar menu */
@@ -161,6 +162,7 @@ body {
 .sidebar_menu a:hover:not(.sidebar_logo) img{
     filter: opacity(1);
 }
+
 
 /* sidebar playlist */
 .sidebar_playlist{
