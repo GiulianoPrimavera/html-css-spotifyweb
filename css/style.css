@@ -155,6 +155,14 @@ body {
     filter: opacity(.8);
 }
 
+.sidebar_menu a:hover span{
+    color: #fff;
+}
+
+.sidebar_menu a:hover:not(.sidebar_logo) img{
+    filter: opacity(1);
+}
+
 /* sidebar playlist */
 .sidebar_playlist{
     flex-grow: 4;
@@ -268,6 +276,10 @@ PLAY BAR
 .current_song_interaction{
     width: 40%;
 }
+.current_song_interaction i:hover{
+    color: #fff;
+    cursor: pointer;
+}
 .current_song_cover, .current_song_name, .current_song_interaction{
     display: inline-block;
 }
@@ -351,10 +363,17 @@ PLAY BAR
     font-size: 12px;
     color: #fff;
 }
+.command_stop_play .fa-pause{
+    display: none;
+}
+
+.command_stop_play:hover{
+    transform: scale(1.2);
+}
 
 .progress_bar{
     flex-grow: 1;
-    height: 3px;
+    height: 4px;
     background-color: #878787;
     border-radius: 4px;
 }
@@ -380,9 +399,11 @@ PLAY BAR
 .progress_bar:hover .progress_line{
     background-color: #fff;
 }
+.progress_bar:hover{
+    cursor: pointer;
+}
 
 /* right command container */
-
 .right_command_container{
     width: 25%;
     height: 100%;
@@ -402,12 +423,15 @@ PLAY BAR
     gap: 10px;
     padding: 0 10px;
 }
+.right_command i:hover{
+    color: #fff;
+}
 
 .volume_bar{
     width: 60%;
     max-width: 100px;
     min-width: 50px;
-    height: 3px;
+    height: 4px;
     background-color: #878787;
     border-radius: 4px;
 }
@@ -426,6 +450,9 @@ PLAY BAR
     width: 8px;
     border-radius: 50%;
     display: none;
+}
+.volume_bar:hover{
+    cursor: pointer;
 }
 .volume_bar:hover .volume_position{
     display: initial;
