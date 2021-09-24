@@ -74,8 +74,14 @@ MEDIA QUERY S
 MEDIA QUERY M
 *************/
 @media screen and (min-width: 768px){
+    /* modifico le dimensioni delle cards */
     .main_cards_container .card{
         width: calc(100% / 4 - 10px)
+    }
+
+    /* modifico la posizione delle icone di interazione della canzone nel left command container */
+    .current_song_container .current_song_interaction i{
+        display: inline;
     }
 }
 

@@ -237,11 +237,25 @@ body {
 PLAY BAR 
 *************/
 /* solo per visualizzare i blocchi */
+.play_bar_container{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 70px;
+    background-color: #282828;
+    
+    display: flex;
+}
 .left_command_container{
     width: 25%;
     height: 100%;
     background-color: blue;
     border: 1px solid;
+
+    padding-left: 10px;
+    display: flex;
+    
 }
 .center_command_container{
     height: 100%;
@@ -256,13 +270,50 @@ PLAY BAR
 }
 
 
-.play_bar_container{
-    position: fixed;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    height: 70px;
-    background-color: #282828;
-    
+.current_song_container{
+    align-self: center;
     display: flex;
+    align-items: center;
+    width: 100%;
+    min-width: 130px;
 }
+.current_song_interaction{
+    width: 40%;
+}
+.current_song_cover, .current_song_name, .current_song_interaction{
+    display: inline-block;
+}
+
+.current_song_container a{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    width: 60%;
+    max-width: 150px;
+}
+.current_song_cover{
+    width: 40%;
+    min-width: 38px;
+    max-width: 50px;
+}
+.current_song_name{
+    width: 55%;
+}
+
+.current_song_name h5{
+    color: #fff;
+    font-size: 12px;
+}
+.current_song_name h6{
+    color: #878787;
+}
+.current_song_cover img{
+    width: 100%;
+}
+.current_song_interaction i{
+    font-size: 14px;
+    display: block;
+    color: #878787;
+    padding: 2px;
+}
+
