@@ -3,7 +3,7 @@ MEDIA QUERY XS
 ***********/
 @media screen and (max-width: 575px){
     .sidebar_menu a:focus{
-        border-left: 2px solid greenyellow;
+        border-left: 2px solid #adff2f;
     }
 }
 
