@@ -158,7 +158,6 @@ body {
 .sidebar_menu a:hover span{
     color: #fff;
 }
-
 .sidebar_menu a:hover:not(.sidebar_logo) img{
     filter: opacity(1);
 }
@@ -210,7 +209,12 @@ body {
     font-size: 14px;
 }
 
-
+.plus_square:hover{
+    background-color: #fff;
+}
+.sidebar_playlist a:hover{
+    color: #fff;
+}
 /* sidebar last section */
 .sidebar_last_section{   
     padding-bottom: 8px;
