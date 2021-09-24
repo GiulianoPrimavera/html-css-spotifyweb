@@ -100,12 +100,12 @@ MEDIA QUERY L
 *************/
 @media screen and (min-width: 992px){
     .main_cards_container .card{
-        width: calc(100% / 6 - 40px);
+        width: calc(100% / 6  - 40px); 
     }
     .main_cards_container .card img{
         max-width: 250px;
     }
     .main_recently_played .main_cards_container{
-        justify-content: space-around;
+        justify-content: space-around
     }
 }
